@@ -1,0 +1,14 @@
+$ git clone https://github.com/olvneto/testes.git
+
+$ git fetch
+
+$ git merge
+=======> git pull
+
+$ git add arquivo.extensão
+
+$ git commit -m "Mensagem de commit" arquivo.extensão
+
+$ git push origin master
+
+
