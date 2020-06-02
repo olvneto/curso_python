@@ -1,4 +1,6 @@
+Trazer o repositóri do GitHub para o diretório local:
 $ git clone https://github.com/olvneto/testes.git
+
 
 $ git fetch
 
