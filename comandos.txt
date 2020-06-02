@@ -1,16 +1,20 @@
 Trazer o repositóri do GitHub para o diretório local:
 $ git clone https://github.com/olvneto/testes.git
 
-
+Trazer os arquivos novos do GitHub
 $ git fetch
 
+Atualizar os arquivos do repositório local
 $ git merge
-=======> git pull
+=======> git pull origin master(nome da branch) (Trazer os arquivos e atualizá-los num comando só)
 
+Adicionar o arquivo ou a sua atualização ao repositório
 $ git add arquivo.extensão
 
+Dar um commit para o repositório
 $ git commit -m "Mensagem de commit" arquivo.extensão
 
-$ git push origin master
+Enviar arquivo ao GitHub:
+$ git push origin master(nome da branch)
 
 
