@@ -1,0 +1,20 @@
+
+
+1 - Instale o MySQL e inicie o serviço com o comando abaixo:
+
+sudo systemctl start mysql
+
+2 - Configure o MySQL inicialmente com o comando abaixo:
+
+sudo mysql_secure_installation
+
+3 - Logue no MySQL com o comando abaixo:
+
+sudo mysql -u root -p
+
+4 - Agora, digite o comando abaixo substituindo a palavra password pela senha que desejar:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; flush privileges;
+
+Pronto, você já deve estar acessando o MySQL sem problemas.
+
