@@ -11,14 +11,18 @@ $ git merge
 Adicionar o arquivo ou a sua atualização ao repositório
 $ git add arquivo.extensão
 
-Apagar arquivo do repositório remoto, mantendo no sistema de arquivos local
-$ git rm --cached file.txt (dar o commit e o push depois, conforme comandos a seguir)
+Apagar arquivo ou pasta do repositório remoto, mantendo no sistema de arquivos local
+$ git rm --cached file.txt
+$ git rm --cached -r nome_da_pasta
+=====> (dar o commit e o push depois, conforme comandos a seguir)
 
 Apagar arquivo do repositório remoto e no sistema de arquivos local
-$ git rm file.txt (dar o commit e o push depois, conforme comandos a seguir)
+$ git rm file.txt
+$ git rm -r nome_da_pasta
+=====> (dar o commit e o push depois, conforme comandos a seguir)
 
 Dar um commit para o repositório
-$ git commit -m "Mensagem de commit" arquivo.extensão
+$ git commit -m "Mensagem de commit" arquivo.extensão (ou sem o nome do arquivo para todos)
 
 Enviar arquivo ao GitHub:
 $ git push origin master(nome da branch)
